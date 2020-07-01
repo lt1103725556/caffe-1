@@ -1,0 +1,11 @@
+先git init初始化
+git config --global user.name "liangtian"设置用户信息
+git config --global user.email "1103725556@qq.com"
+git status查看各个文件的状态
+git add . 保存所有文件/git add index.html 保存单个文件 到staging
+保存后修改过的文件(status)会由红变绿
+git commit -m "说明信息" 补充说明信息
+
+git remote add origin github_url 连接github
+git branch 查看自己所在的分支
+git push origin master把staging的推到github
